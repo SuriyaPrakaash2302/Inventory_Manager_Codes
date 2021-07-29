@@ -3,7 +3,7 @@ $servername = "121.200.55.42:4063";
 $username = "inventory";
 $password = "inv@123";
 $dbname = "inventory_manager";
-$ID=$_GET['ID'];
+$ID=1; //$_GET['ID']
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
