@@ -1,9 +1,9 @@
 <?php
-$servername = "121.200.55.42:4063";
-$username = "inventory";
-$password = "inv@123";
+$servername = "localhost";
+$username = "root";
+$password = "";
 $dbname = "inventory_manager";
-$ID=$_GET['ID']; //$_GET['ID']
+$ID=$_GET['ID']; //$ID=$_GET['ID'];
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
